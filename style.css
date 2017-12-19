@@ -1,0 +1,156 @@
+body, header, h1, h2, aside, nav, ul, li, a, main, article, h3, p, label {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #CBEFEF;
+	position: relative;
+}
+.wrapper {
+	background-color: #389DAA ;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 5%;
+}
+h1, h2, h3, p, a, li {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+	color: #E8E2DA;
+	width: 50%;
+	letter-spacing: 1px;	
+}
+h1 {
+	font-size: 60px;
+	line-height: 60px;	
+}
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+	margin: 30px 0px;
+}
+h3 {
+	padding-bottom: 30px;
+}
+.black { 
+	background:#10294C; 
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	bottom:0; 
+	right:0; 
+	position:fixed; 
+	top:0; 
+	width:30%; 
+	z-index:1; 
+}
+aside { 
+	background:#CFDE55; 
+	opacity: 0.8;
+    filter: alpha(opacity=60);
+	padding:5%;
+	width: 300px; 
+	position: absolute;
+	right: 4%;
+	top: 6%;
+	z-index: 2;
+}
+aside ul {
+	padding: 5px 0 5px 0; 
+}
+aside ul li { 
+	list-style:none; 
+	margin:0; 
+	padding:0 0 5px 0; 
+}
+aside ul li a {
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #10294C;
+	display: block;
+	padding: 20px;
+}
+aside ul li a:hover:not(.active)  {
+	text-decoration: underline;
+}
+aside ul li a.active {
+	text-decoration: underline;
+}
+.one {
+	width: 45%;
+	min-width: 230px;
+	background-color: #E8E2DA;
+	font-size: 18px;
+	margin-top: 5%;
+	padding: 5%;
+	color: #10294C;
+	position: relative;
+	z-index: 3;
+}
+#red {
+	color: #10294C;
+	text-shadow: 5px 5px 5px #CFDE55;
+}
+main a:hover {
+	text-decoration: underline;
+}
+main a {
+	text-decoration: none;
+	color: #10294C;
+}
+.img-two {
+	margin-top: 5%;
+	background-color: #E8E2DA;
+	width: 95%;
+	position: relative;
+	z-index: 3;
+}
+.two {
+	display: inline-block;	
+	width: 50%;
+	min-width: 230px;
+	font-size: 18px;
+	margin-top: 5%;
+	padding: 5%;
+	color: #10294C;		
+}	
+.img {
+	float: right;
+	display: inline-block;
+	width: 434px; 
+	min-width: 230px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #10294C;
+	padding: 5%;
+	box-sizing: border-box;	
+	box-shadow: 5px 5px 5px #CFDE55;	
+}
+h5 {
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #10294C;
+}
+form p, label {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #10294C;
+	padding: 15px 0px;
+}
+#important {
+	color: #CFDE55
+}
+#buton {
+	color: #10294C;
+	padding: 15px 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: #CFDE55;
+}
+p {
+	color: #10294C;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
